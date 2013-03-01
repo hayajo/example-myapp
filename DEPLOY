@@ -1,0 +1,27 @@
+INSTALLATION
+
+    % git clone <repository> example-myapp && cd example-myapp
+    % cinnamon development deploy:setup
+    % cinnamon development carton:install
+    % cinnamon development server:start
+
+
+Then access to:
+
+    http://<hostname>:8080/
+
+UPDATE
+
+    % cinnamon development deploy:update
+    % cinnamon development carton:install
+    % cinnamon development server:restart
+
+PRE_REQUIREMENTS
+
+    * Cinnamon
+    * Config::Pit
+
+SEE ALSO
+
+    http://blog.kentarok.org/entry/2012/02/23/015712
+    http://d.hatena.ne.jp/naoya/20130118/1358477523
