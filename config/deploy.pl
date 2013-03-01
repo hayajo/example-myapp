@@ -16,7 +16,7 @@ my $conf = Config::Pit::get(
 );
 
 set user       => $conf->{user};
-set repository => 'git://github.com/hayajo/example-myapp.git';
+set repository => 'https://github.com/hayajo/example-myapp.git';
 set script     => 'script/example_myapp';
 
 role development => [$hostname], {
